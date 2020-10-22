@@ -85,25 +85,6 @@ font-family: 'Bebas Neue', cursive;
 
 }
 
-/* .slider::before {
-  content: '';
-    background-color: #f4b39e;
-    position: absolute;
-    height: 5%;
-    width: 24%;
-    left: 0;
-  } */
-  
-  /* .slider::after {
-    content: '';
-    background-color: #f4b39e;
-    position: absolute;
-    height: 5%;
-    width: 24%;
-    right: 0;
-    top: 83px;
-  } */
-
 .slider__item {
   min-height: 401px;
   position: relative;
@@ -159,6 +140,25 @@ font-family: 'Bebas Neue', cursive;
   bottom: 30px;
   left: 35px;
 }
+
+/* .slider::before {
+  content: '';
+    background-color: #f4b39e;
+    position: absolute;
+    height: 5%;
+    width: 24%;
+    left: 0;
+  } */
+  
+  /* .slider::after {
+    content: '';
+    background-color: #f4b39e;
+    position: absolute;
+    height: 5%;
+    width: 24%;
+    right: 0;
+    top: 83px;
+  } */
 /* ======================================================================================================================================== */ 
 /* NEWS */
 
