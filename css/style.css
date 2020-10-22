@@ -80,26 +80,58 @@ font-family: 'Bebas Neue', cursive;
 /* ========================================================================================================================================= */
 /* SLIDER */
 
-.slider::before {
-content: '';
-  background-color: #f4b39e;
-  position: absolute;
-  height: 5%;
-  width: 24%;
-  left: 0;
+.slider {
+  margin-bottom: 20px;
+
 }
 
-
-
-.slider::after {
+/* .slider::before {
   content: '';
-  background-color: #f4b39e;
-  position: absolute;
-  height: 5%;
-  width: 24%;
-  right: 0;
-  top: 83px;
+    background-color: #f4b39e;
+    position: absolute;
+    height: 5%;
+    width: 24%;
+    left: 0;
+  } */
+  
+  /* .slider::after {
+    content: '';
+    background-color: #f4b39e;
+    position: absolute;
+    height: 5%;
+    width: 24%;
+    right: 0;
+    top: 83px;
+  } */
+
+.slider__item {
+  min-height: 401px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.thumbs__item {
+  width: 140px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.thumbs .slick-track {
+  transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.thumbs .slick-track div + div {
+  margin-left: 20px;
+}
+
+.thumbs .slick-slide {
+  max-width: 140px;
+}
+
 .slider__item-title {
   font-family: 'Bebas Neue', cursive;
   font-size: 18px;
@@ -117,12 +149,6 @@ content: '';
   color: #ffffff;
 }
 
-.slider__item {
-  background-image: url('../images/slide_1.jpg');
-  height: 401px;
-  position: relative;
-}
-
 .slider__item-box {
   padding: 20px 25px 25px 20px;
   width: 413px;
@@ -133,12 +159,7 @@ content: '';
   bottom: 30px;
   left: 35px;
 }
-
-.slider__bottom {
-  margin-top: 15px;
-}
-
-/* ======================================================================================================================================== */
+/* ======================================================================================================================================== */ 
 /* NEWS */
 
 .news {
